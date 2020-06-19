@@ -8,4 +8,4 @@ jobs:
       with:
         who-to-greet: 'Yoda'
       id: hello
-    - run: echo "The time was : ${{ steps.hello.outputs.time }}"
+    - run: echo "The time was  ${{ steps.hello.outputs.time }}"
